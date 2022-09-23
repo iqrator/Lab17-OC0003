@@ -1,0 +1,284 @@
+html {
+        writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
+        -epub-writing-mode: vertical-rl;
+        -epub-line-break: strict;
+        line-break: strict;
+        -epub-word-break: normal;
+        word-break: normal;	
+}
+
+/* 未連結 */
+a:link {
+	color: #404a59;
+	text-decoration: none;
+        }
+/* 已連結過，行動裝置未觸點 */
+a:visited {
+	color: #6b6760;
+	text-decoration: none;
+        }
+/* 滑鼠移至連結，行動裝置觸點下去顏色 */
+a:hover {
+	color: #b1713e;
+	text-decoration: none;
+        }
+/* 選擇的連結 */
+a:active {
+	color: #88786b;
+	text-decoration: none;
+        }
+
+body { 
+	font-family: serif; 
+	font-size: 12pt; 
+	line-height: 1.7em; 
+	text-indent: 2em; 
+	text-orientation: upright;
+	font-weight: 200;
+}
+/*標題*/
+h1.chapter {
+	text-indent: 0em;
+	font-size: 13pt;
+	color: #915523;
+	border-left: 1px dotted #aaa5a1;
+	border-right: 8px solid #716444;
+	line-height: 1.8em;
+	margin: 0em 0em 0em 3em;
+}
+/*章*/
+h2.section {
+	font-size: 12pt;
+	text-indent: 0em;
+	color: #56717d;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #b5af7c;
+}
+/*節*/
+h3.paragraph {
+	text-indent: 0em;
+	font-size: 13pt;
+	color: #bd3232;
+}
+/*扉頁*/
+p.titlepage1 {
+	text-indent: 0em;
+	font-size: 10pt;
+	line-height: 1.6em;
+	color: #6b6760;
+	border: 1px solid;
+	border-color: #ada197;
+	padding: 1.5em;
+	resize: both;
+	overflow: auto;
+}
+p.titlepage2 {
+	text-indent: 2em;
+	font-size: 90%;
+	line-height: 2em;
+}
+/*內容提要*/
+p.summary1 {
+	text-indent: 2em;
+	font-size: 90%;
+	line-height: 1.5em;
+	border: 1px solid;
+	padding: 1.5em;
+	resize: both;
+	overflow: auto;
+}
+p.summary2 {
+	text-indent: 2em;
+	font-size: 90%;
+	line-height:1.5em;
+}
+/*版權*/
+p.copyright {
+	text-indent: 2em;
+	font-size: 115%;
+	line-height: 1em;
+}
+/*序-出版者*/
+p.foreword1 {
+	text-indent: 2em;
+	font-size: 90%;
+	line-height: 1.5em;
+}
+p.foreword2 {
+	text-indent: 2em;
+	font-size: 90%;
+	line-height: 1.5em;
+}
+/*序-作者本人*/
+p.preface {
+	text-indent: 2em;
+	font-size: 115%;
+	line-height: 1em;
+}
+/*作者感謝文*/
+p.acknowledgements {
+	text-indent: 2em;
+	font-size: 115%;
+	line-height: 1em;
+}
+/*引言*/
+p.introduction {
+	font-size: 90%;
+	line-height: 2em;
+	page-break-before: always;
+}
+/*目錄*/
+p.tableofcontent1 {
+	text-indent: 0em;
+	font-size: 9pt;
+	line-height: 2em;
+	color: #737373;
+}
+p.tableofcontent2 {
+	text-indent: 0em;
+	font-size: 10pt;
+	line-height: 1.5em;
+	color: #636363;
+	border-left: 1px dotted #9a9a9a;
+}
+/*索引*/
+p.index {
+	font-size: 120%;
+	line-height: 1em;
+}
+/*附錄*/
+p.appendix {
+	font-size: 120%;
+	line-height: 1em;
+}
+/*後記*/
+p.epilogue {
+	font-size: 120%;
+	line-height: 1em;
+}
+/*參考文獻*/
+p.reference {
+	font-size: 120%;
+	line-height: 1em;
+}
+
+
+/*內文-強調/重點*/
+p.point1 {
+	font-family: cursive,STKaiTi-TC;
+	margin: 2em 2em 2em 2em;
+	line-height: 1.6em;
+	text-indent: 0em;
+	color: #6d6560;
+	font-size: 11.5pt;
+}
+p.point2 {
+	margin: 2em 2em 2em 2em;
+	line-height: 1.5em;
+	text-indent: 0em;
+	color: #727543;
+}
+/*內文-書信*/
+p.letter1 {
+	font-family: cursive,STKaiTi-TC;
+	font-size: 11.5pt;
+	text-indent: 0em;
+	line-height: 1.5em;
+	color: #82613a;
+	margin: 2em 2em 2em 2em;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	text-decoration-color: #c4b19a;
+}
+p.letter2 {
+	font-family: cursive,STKaiTi-TC;
+	font-size: 11.5pt;
+	text-indent: 0em;
+	line-height: 1.5em;
+	color: #82613a;
+	margin: 2em 2em 2em 2em;
+}
+/*內文-詩歌*/
+p.poem {
+	font-family: cursive,STKaiTi-TC;
+	font-size: 12pt;
+	text-indent: 0em;
+	line-height: 1.3em;
+	color: #c1773c;
+	margin: 2em 2em 2em 2em;
+}
+/*內文-註釋*/
+p.note {
+	font-size: 10.5pt;
+	color: #808080;
+	margin: 2em 2em 2em 2em;
+	line-height: 1.6em;
+	text-indent: 0em;
+}
+/*內文-評論*/
+p.comment {
+	font-size: 11pt;
+	color: #685044;
+	margin: 2em 2em 2em 2em;
+	line-height: 1.9em;
+	text-indent: 0em;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #cbcac9;
+}
+/*內文-攥寫日期*/
+p.date {
+	text-indent: 0em;
+	font-size: 9pt;
+	line-height: 1.3em;
+	text-align: right;
+	color: #7b7b7b;
+}
+/*內文-清單*/
+p.text6 {
+	text-indent: 0em;
+	font-size: 11.5pt;
+	line-height: 1.5em;
+	color: #666666;
+	margin: 2em 2em 2em 2em;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #bcbcbc;
+}
+.memo {
+	font-size: 10pt;
+	color: #808080;
+}
+.collection {
+	color: #818495;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #999db1;
+}
+.letter1a {
+	font-family: cursive,STKaiTi-TC;
+	color: #82613a;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	text-decoration-color: #c4b19a;
+}
+.point1a {
+	font-family: cursive,STKaiTi-TC;
+	color: #727543;
+}
+.cc {
+	font-size: 12pt;
+	margin: 2em 2em 2em 2em;
+	line-height: 1.7em;
+	text-indent: 0em;
+
+}
+.cc1 {
+	font-size: 11pt;
+	margin: 2em 6em 2em 2em;
+	line-height: 1.7em;
+	text-indent: 0em;
+	color: #6b6b6b;
+}
